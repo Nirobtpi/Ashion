@@ -1,0 +1,167 @@
+#header{
+    width: 100%;
+    position: relative;
+    background: $navColor;
+    
+    .menu{
+        position: relative;
+        
+        i{
+        margin-left: 100%;
+        padding: 45px 0;
+        position: absolute;
+        font-size: 32px;
+        color: $fontColor;
+        cursor: pointer;
+        display: none;
+        }
+    }
+
+    .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        padding: 40px 0;
+
+        
+
+        .col-1{
+            flex-basis: 10%;
+            // background: red;
+
+            .logo{
+                a{
+                    img{
+                        width: 100%;
+                        vertical-align: center;
+                    }
+                }
+            }
+        }
+
+        .col-2{
+            flex-basis: 50%;
+            // margin-right: 10%;
+
+           nav{
+            // background: red;
+            ul{
+                display: flex;
+                align-items: center;
+                // justify-content: space-between;
+
+                li{
+                    margin-left: 20px;
+                   
+                    a{
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                        color: $fontColor;
+                        font-weight: 500;
+                        font-size: 15px;
+                        padding: 2px 0;
+                        align-items: center;
+                        // position: relative;
+                        transition: 0.1s all ease;
+
+                        &:hover{
+                            border-bottom: 2px solid $boderColor;
+                        }
+                    }
+
+                   
+                }
+                .active{
+                    border-bottom: 2px solid $boderColor;
+                    margin-top: 4px;
+                }
+
+                .dropdown{
+                    position: relative;
+                    transition: 0.5s all ease;
+                    .dropdown-content{
+                        width: 160px;
+                        position: absolute;
+                        background: $fontColor;
+                        overflow: hidden;
+                        margin-top: 50px;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: 0.5s all ease;
+                        a{
+                            overflow: hidden;
+                            display: block;
+                            color: $navColor;
+                            padding: 10px 10px;
+                            font-size: 12px;
+                            font-weight: 400;
+
+                            &:hover{
+                                border-bottom: none;
+                            }
+                        }
+                    }
+                    &:hover .dropdown-content{
+                        opacity: 1;
+                        visibility: visible;
+                        transform: translateY(-45px);
+                        z-index: 9999;
+                    }
+                }
+            }
+           }
+
+        }
+
+        .col-3{
+            flex-basis: 30%;
+
+            .login{
+                align-items: center;
+                // margin-top: 35px;
+                a{
+                    color: $fontColor;
+                    text-align: center;
+                    text-transform: capitalize;
+                    font-weight: 300;
+                    font-size: 14px;
+                }
+            }
+            .sc-icon{
+                margin-left: 35%;
+                margin-top: -18px;
+                ul{
+                    display: flex;
+                    align-items: center;
+                   
+                    li{
+                        margin-left: 40px;
+                        a{
+                            position: relative;
+                            color: $fontColor;
+                            font-size: 22px;
+                            opacity: 0.8;
+
+
+                            .trip{
+                                position: absolute;
+                                margin-top: -35px;
+                                margin-left: 13px;
+                                height: 18px;
+                                width: 18px;
+                                background: $fontColor;
+                                color: $navColor;
+                                text-align: center;
+                                font-size: 14px;
+                                border-radius: 50%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

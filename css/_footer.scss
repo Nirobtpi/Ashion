@@ -1,0 +1,120 @@
+#footer{
+    width: 100%;
+    position: relative;
+
+    .row{
+        display: flex;
+        justify-content: space-between;
+        // align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex-grow: 1;
+        margin-bottom: 50px;
+        border-bottom: 2px solid #ddd;
+
+        .col-4{
+            flex-basis: 23%;
+            margin-top: 10%;
+
+            .logo{
+                // margin-top: 60%;
+
+                p{
+                    margin-top: 20px;
+                    font-size: 14px;
+                    line-height: 2;
+                    color: $colorFOnt;
+                    font-weight: 400;
+                    // letter-spacing: 1px;
+                }
+
+            }
+            .payment{
+                margin-top: 20px;
+                ul{
+                    display: flex;
+                    // justify-content: space-between;
+                    margin-bottom: 20px;
+                    li{
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            h2{
+                margin-bottom: 12px;
+                font-size: 18px;
+                color: $fontColor;
+                font-weight: 400;
+            }
+            ul{
+                li{
+                    margin-bottom: 10px;
+                    // margin-left: 20px;
+                    a{
+                        color: $fontColor;
+                        font-weight: 300;
+                    }
+                }
+            }
+            input{
+                // padding: 20px 40px;
+                width: 100%;
+                height: 60px;
+                outline: none;
+                border-radius: 50px;
+                border: 2px solid #ddd;
+                position: relative;
+                margin-bottom: 20px;
+            }
+            ::placeholder{
+                color: $fontColor;
+                padding: 0 20px;
+                
+            }
+            button{
+                padding: 15px 20px;
+                margin-left: -9%;
+                margin-top: 10px;
+                position: absolute;
+                border-radius: 50px;
+                background: $boderColor;
+                border: none;
+                cursor: pointer;
+            }
+            .sc-icon{
+                margin-top: 20px;
+                ul{
+                    display: flex;
+                    // justify-content: center;
+                    
+                    li{
+                        margin-left: 25px;
+                        a{
+                            display: flex;
+                            width: 40px;
+                            height: 40px;
+                            background: #ddd;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 50%;
+                            i{
+                                font-size: 18px;
+                                color: $fontColor;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copy-wright{
+        text-align: center;
+        margin-bottom: 20px;
+        h4{
+            font-size: 14px;
+            font-weight: 300;
+            color: $colorFOnt;
+        }
+    }
+}

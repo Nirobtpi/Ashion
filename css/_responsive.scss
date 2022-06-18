@@ -1,0 +1,330 @@
+@media screen and (max-width:1200px){
+    #hero .row .col-2 .bg-img {
+        height: 124vh;
+    }
+    #money .row .col-4 .icon .content h2 {
+        font-size: 16px;
+    }
+    // #shop .row .col-6 .img .img-6 {
+    //     margin-left: -200%;
+    // }
+    // #shop .row .col-6 .img .sc-icon {
+    //     margin-left: -200%;
+    // }
+    
+}
+@media screen and (max-width:1199px){
+    #discount .row .col-2 {
+        flex-basis: 100%;
+    }
+    #discount .row .col-3 {
+        flex-basis: 100%;
+        height: 100vh;
+    }
+    #shop .row .col-6 {
+        flex-basis: 33%;
+    }
+    #shop .row .col-6 .img .img-1 {
+       width: 100%;
+    }
+    #shop .row .col-6 .img .img-2 {
+       width: 100%;
+    }
+    #shop .row .col-6 .img .img-3 {
+        width: 100%;
+        
+    }
+    #shop .row .col-6 .img .img-4 {
+        width: 100%;
+    }
+    #shop .row .col-6 .img .img-5 {
+        width: 100%;
+    }
+    #shop .row .col-6 .img .img-6 {
+        width: 100%;
+    }
+    #shop .row .col-6 .img .sc-icon {
+        margin-left: 105px;
+        margin-top: -53%;
+    }
+}
+    
+
+@media screen and (max-width:992px){
+    #header .row .col-3 .login {
+        margin-left: 14px;
+        margin-top: 5px;
+    }
+    #hero .row .col-2 .bg-img .content {
+        width: 359px;
+    }
+    #product .row .col-2 ul li {
+        margin-left: 22px;
+    }
+    #product-pic .row .col-4 .content-out h2 {
+        font-size: 17px;
+    }
+    #product-pic .row .col-4 .img-thumbnail .sc-icon {
+        margin-left: 0px;
+    }
+    #product .row .col-3 {
+        display: none;
+    }
+    #product .menu i {
+        display: block;
+    }
+    #collection {
+        height: 100vh;
+    }
+    #collection .content {
+        margin-left: 32%;
+        margin-top: 20%;
+    }
+    #collection .content h2 {
+        font-size: 49px;
+        margin-left: -20%;
+    }
+    #trend .row-1 .col-3 .row-2 .col-1 .trend-content {
+        width: 163px;
+    }
+    #money .row .col-4 .icon .content {
+        margin-left: 34%;
+    }
+    #money .row .col-4 {
+        -ms-flex-preferred-size: 24%;
+        flex-basis: 33%;
+        margin-top: 20px;
+    }
+    #footer .row .col-4 input {
+        margin-left: -12px;
+    }
+    #footer .row .col-4 button {
+        margin-left: -11%;
+    }
+    #footer .row .col-4 .sc-icon {
+        margin-left: -36px;
+    }
+}
+@media screen and (max-width:991px){
+    #header .row .col-2 {
+        display: none;
+    }
+    #header .row .col-3 {
+        display: none;
+    }
+    #header .menu i {
+        display: block;
+    }
+    #hero .row .col-2 {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+    #hero .row .col-2 .bg-img .content {
+        width: 423px;
+    }
+    #product .row .col-2 {
+        flex-basis: 25%;
+    }
+    #product .row .col-2 h2 {
+        font-size: 1.5em;
+        margin-left: 34px;
+    }
+    #product .row .col-3 {
+        flex-basis: 75%;
+    }
+    #product-pic .row .col-4 {
+        flex-basis: 32%;
+    }
+    #product-pic .row .col-4:last-child {
+        margin-right: 34%;
+    }
+    #product-pic .row .col-4 .img-thumbnail .sc-icon {
+        margin-left: 30px;
+    }
+    #trend .row-1 .col-3 .row-2 .col-1 .trend-content {
+        width: 112px;
+    }
+    #shop .row .col-6 .img .sc-icon {
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width:768px){
+    #product .row .col-2 {
+        flex-basis: 35%;
+    }
+    #product .row .col-3 {
+        flex-basis: 65%;
+    }
+    #product .row .col-3 ul li {
+        margin-left: 20px;
+    }
+    #product-pic .row .col-4 .img-thumbnail .sc-icon {
+        margin-left: 0px;
+    }
+    #footer .row .col-4 button {
+        margin-left: -15%;
+    }
+}
+@media screen and (max-width:767px){
+    #product .row .col-2 {
+        flex-basis: 100%;
+        margin-bottom: 50px;  
+    }
+    #product .row .col-2 h2 {
+        font-size: 2.5em;
+    }
+    #product .row .col-3 {
+        flex-basis: 100%;
+        // margin-left: -110px;
+    }
+    #product-pic .row .col-4 {
+        flex-basis: 48%;
+    }
+    #product-pic .row .col-4:last-child {
+        margin-right: 1px;
+    }
+    #product-pic .row .col-4 .img-thumbnail .sc-icon {
+        margin-left: 40px;
+    }
+    #trend .row-1 .col-3 {
+        flex-basis: 50%;
+    }
+    #money .row .col-4 {
+        flex-basis: 50%;
+        margin-top: 59px;
+    }
+    #money .row .col-4 .icon .content {
+        margin-left: 23%;
+        margin-top: -44px;
+    }
+    #shop .row .col-6 .img .sc-icon {
+        margin-left: 20px;
+        margin-top: -75%;
+    }
+    #footer .row .col-4 {
+        flex-basis: 33%;
+    }
+    #footer .row .col-4 button {
+        margin-left: -15%;
+    }
+}
+@media screen and (max-width:576px){
+    #header .row .col-1 {
+        flex-basis: 25%;
+    }
+    #header .menu i {
+        margin-left: 90%;
+    }
+    #product-pic .row .col-4 .img-thumbnail .sc-icon {
+        margin-left: 5px;
+    }
+    #collection .content {
+        margin-left: 24%;
+    }
+    #discount .row .col-3 .discount-content .time-content {
+        display: none;
+    }
+    #discount .row .col-3 .discount-content {
+        margin-left: -57px;
+        margin-top: 130px;
+    }
+    #money .row .col-4 .icon .content {
+        margin-left: 29%;
+    }
+    #shop .row .col-6 .img .sc-icon {
+        margin-left: -3px;
+    }
+    #footer .row .col-4 button {
+        margin-left: -20%;
+    }
+}
+@media screen and (max-width:575px){
+    #hero .row .col-2 .row-2 .col-4 {
+        -ms-flex-preferred-size: 49%;
+        flex-basis: 100%;
+        position: relative;
+    }
+    #product .row .col-2 {
+        margin-left: -35px;
+    } 
+    #product .row .col-3 {
+        margin-left: -57px;
+    }
+    #product-pic .row .col-4 {
+        flex-basis: 100%;
+    }
+    #product-pic .row .col-4 .img-thumbnail .sc-icon {
+        margin-left: 130px;
+    }
+    #collection .content {
+        margin-left: 23%;
+        margin-top: 36%;
+    }
+    #trend .row-1 .col-3 {
+        flex-basis: 100%;
+    }
+    #trend .row-1 .col-3 .row-2 .col-1 .trend-content {
+        width: 186px;
+    }
+    #money .row .col-4 {
+        flex-basis: 100%;
+    }
+    #money .row .col-4 .icon .content {
+        margin-left: 16%;
+    }
+    #shop .row .col-6 {
+        flex-basis: 100%;
+    }
+    #shop .row .col-6 .img .sc-icon {
+        margin-top: -34%;
+        margin-left: 33%;
+    }
+    #footer .row .col-4 {
+        flex-basis: 100%;
+    }
+}
+@media screen and (max-width:486px){
+    #product .row .col-3 {
+        margin-left: -10px;
+    }
+    #product .row .col-3 ul li a {
+        font-size: 16px;
+
+    }
+    #collection .content h4 {
+        margin-left: -54px;
+    }
+    #collection .content h2 {
+        font-size: 29px;
+        margin-left: -25%;
+    }
+    #collection .content a {
+        margin-left: 0px; 
+    }
+    #footer .row .col-4 button {
+        margin-left: -31%;
+    }
+}
+@media screen and (max-width:420px){
+    #product .row .col-3 {
+        margin-left: -30px;
+    }
+    #product .row .col-3 ul li a {
+        font-size: 12px;
+    }
+    #product-pic .row .col-4 .img-thumbnail .sc-icon {
+        margin-left: 63px;
+    }
+    #collection .content {
+        margin-left: 29%;
+        margin-top: 44%;
+    }
+    #discount .row .col-3 .discount-content {
+        text-align: center;
+        margin-left: -75px;
+        margin-top: 150px;
+    }
+    #money .row .col-4 .icon .content {
+        margin-left: 23%;
+    }
+}

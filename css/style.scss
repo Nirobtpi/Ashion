@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+// coler plate
+
+$fontColor:#111111;
+$colorFOnt:#374E4F;
+$navColor:#FFFFFF;
+$boderColor:#CA1515;
+$colorP:#666666;
+
+
+@import'header';
+@import'hero';
+@import'product';
+@import'product-pic';
+@import'collection';
+@import'trend';
+@import'discount';
+@import'money';
+@import'shop';
+@import'footer';
+@import'responsive';

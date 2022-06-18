@@ -1,0 +1,129 @@
+#product-pic{
+    width: 100%;
+    position: relative;
+
+    .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex-grow: 1;
+
+        .col-4{
+            flex-basis: 24%;
+            cursor: pointer;
+            padding-bottom: 40px;
+
+            .img-thumbnail{
+                position: relative;
+                
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                }
+                .content{
+                    position: absolute;
+                    margin-top: -130%;
+                    h2{
+                        font-size: 14px;
+                        background: green;
+                        margin-left: 25px;
+                        letter-spacing: 1px;
+                        width: 60px;
+                        text-align: center;
+                        font-weight: 400;
+                        color: #fff;
+                    }
+                    .red{
+                        background: $boderColor;
+                        font-size: 14px;
+                    }
+                    h1{
+                        font-size: 14px;
+                        background: $fontColor;
+                        margin-left: 25px;
+                        letter-spacing: 1px;
+                        text-align: center;
+                        width: 120px;
+                        font-weight: 400;
+                        color: #fff;
+                    }
+                }
+
+                .sc-icon{
+                    position: absolute;
+                    margin-top: -20%;
+                    margin-left: 30px;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: 0.5s all ease;
+                    ul{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        li{
+                            margin-left: 20px;
+                            a{
+                                display: block;
+                                width: 45px;
+                                height: 45px;
+                                background: $navColor;
+                                border-radius: 50%;
+                                transition:0.5s all linear;
+                                
+                                i{
+                                    font-size: 18px;
+                                    text-align: center;
+                                    margin-top: 14px;
+                                    margin-left: 12px;
+                                    color: $fontColor;
+                                    font-weight: 300;
+                                    &:hover{
+                                        transform: rotate(0);
+                                        color: $navColor;
+                                    }
+                                }
+                                &:hover{
+                                    background: $boderColor;
+                                    transform: rotate(360deg);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            &:hover .sc-icon{
+                transform: translateY(-40px);
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .content-out{
+                text-align: center;
+                h2{
+                    font-size: 18px;
+                    margin-top: 10px;
+                    color: $colorFOnt;
+                    font-weight: 300;
+                    letter-spacing: 1px;
+                    cursor: pointer;
+                }
+                i{
+                    color: orange;
+                    margin-top: 5px;
+                    font-size: 12px;
+                }
+                h3{
+                    font-weight: 400;
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                }
+                .red{
+                    color: $boderColor;
+                }
+            }
+        }
+    }
+}
